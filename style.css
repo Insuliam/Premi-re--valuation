@@ -1,0 +1,165 @@
+html{
+    scroll-behavior: smooth;
+}
+h2,h3,h4, .nav-item, #transition, footer {
+    text-align: center;
+}
+header {
+    background: url(./media/chien.jpg)no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    padding: 40px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 5em;
+    padding: 200px 0 20%;
+    color: white;
+    animation: titre ease 3.5s;
+}
+@keyframes titre {
+    0% {
+        opacity: 0;
+        transform: translateY(180px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+ {
+    height: 190px;
+    width: 300px;
+}
+#leftPart {
+    background-color: #ECC19C ;
+    border-radius: 20px;
+    padding: 25px;
+}
+.elements {
+    padding: 70px 0;
+}
+.elements img {
+    border-radius: 5%;
+    width: 250px;
+    height: 150px;
+    
+}
+.elements p {
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+.elements button {
+    text-align: right;
+    margin: 15px 4% 0 0;
+}
+.elements .button {
+    text-align: right;
+    margin: 15px;
+}
+#rightPart {
+    background-color: #1E847F ;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+}
+.don {
+    height: 50px;
+    width: 200px;
+}
+.donation:hover {
+    transform: scale(1.09);
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+}
+@keyframes chien-qui-court {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-800px);
+    }
+  }
+  .transition {
+      animation: chien-qui-court infinite 6s;
+      float: right;
+  }
+  .famille {
+      height: 200px;
+      width: 200px;
+  }
+  .logo-chien {
+      height: 30px;
+      width: 30px;
+  }
+  
+  #newsLetter {
+      background: url(./media/newsletter.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      height: 370px;
+      width: 70%;
+      min-width: 70%;
+      margin: 0 auto;
+      border-radius: 50%;
+      margin-bottom: 70px;
+  }
+  #newsLetter h4 {
+      margin-top: 15px;
+      padding: 100px 0 20px 0;
+      font-size: 2em;
+  }
+ #newsLetter .input-group {
+     width: 40%;
+     min-width: 350px;
+     margin: 0 auto;
+ }
+ footer {
+     background-color: #ECC19C;
+ }
+ .nav-item {
+     font-weight: bold;
+     padding-right: 40px;
+ }
+ h4 {
+     color: pink;
+     
+     
+ }
+ @media  screen and (max-width: 580px) {
+     .elements {
+         padding: 15px 0;
+         text-align: center;
+     }
+     .elements img {
+         margin-bottom: 10px;
+     }
+     
+     .famille {
+         display: none;
+     }
+     .transition {
+         display: none;
+     }
+
+     
+ }
+ @media  screen and (max-width: 1270px) {
+    .famille {
+        display: none;
+    }
+    .transition {
+        display: none;
+    }
+ }
+ 
